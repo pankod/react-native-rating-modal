@@ -1,6 +1,6 @@
 {
 	"name": "react-native-rating-modal",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"description": "Rating modal for react-native",
 	"scripts": {
 		"build": "rm -rf ./dist/** && tsc"
@@ -41,6 +41,8 @@
 		"typescript": "^3.3.3333"
 	},
 	"peerDependencies": {
+		"react": "*",
+		"react-native": "*",
 		"react-native-ratings": "^4.1.0"
 	}
 }
