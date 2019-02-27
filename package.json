@@ -1,18 +1,18 @@
 {
-	"name": "rating-modal",
-	"version": "0.0.1",
+	"name": "react-native-rating-modal",
+	"version": "0.0.2",
 	"description": "Rating modal for react-native",
 	"scripts": {
 		"build": "rm -rf ./dist/** && tsc"
 	},
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/pankod/react-native-rating-modal"
 	},
 	"bugs": {
-		"url": ""
+		"url": "https://github.com/pankod/react-native-rating-modal/issues"
 	},
-	"homepage": "",
+	"homepage": "https://github.com/pankod/react-native-rating-modal",
 	"files": [
 		"dist"
 	],
@@ -29,6 +29,7 @@
 	],
 	"license": "MIT",
 	"dependencies": {
+		"lodash.times": "^4.3.2",
 		"react-native-ratings": "^4.1.0"
 	},
 	"devDependencies": {
