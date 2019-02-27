@@ -31,7 +31,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var react_1 = __importStar(require("react"));
+var React = __importStar(require("react"));
 var react_native_1 = require("react-native");
 var AirbnbRating = __importStar(require("react-native-ratings"));
 var Components_1 = require("./Components");
@@ -126,6 +126,6 @@ var RateModal = (function (_super) {
         androidUrl: ''
     };
     return RateModal;
-}(react_1.Component));
+}(React.Component));
 exports.default = RateModal;
 //# sourceMappingURL=index.js.map

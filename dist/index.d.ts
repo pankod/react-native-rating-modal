@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import * as React from 'react';
 interface IState {
     rating: number;
     showContactForm: boolean;
@@ -20,7 +20,7 @@ interface IProps {
     onClosed?(): void;
     sendContactUsForm?(st: IState): void;
 }
-export default class RateModal extends Component<IProps, IState> {
+export default class RateModal extends React.Component<IProps, IState> {
     static defaultProps: {
         okBtnText: string;
         cancelBtnText: string;

@@ -20,7 +20,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var react_1 = __importStar(require("react"));
+var React = __importStar(require("react"));
 var react_native_1 = require("react-native");
 var Styles_1 = require("./Styles");
 var TextBox = (function (_super) {
@@ -57,6 +57,6 @@ var TextBox = (function (_super) {
             this.props.onChangeText(text);
     };
     return TextBox;
-}(react_1.Component));
+}(React.Component));
 exports.TextBox = TextBox;
 //# sourceMappingURL=index.js.map

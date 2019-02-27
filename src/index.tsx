@@ -1,5 +1,5 @@
 // Global Imports
-import React, { Component } from 'react';
+import * as React from 'react';
 import { Linking, Platform, Text, View, Modal } from 'react-native';
 import * as AirbnbRating from 'react-native-ratings';
 
@@ -30,7 +30,7 @@ interface IProps {
 	sendContactUsForm?(st: IState): void;
 }
 
-export default class RateModal extends Component<IProps, IState> {
+export default class RateModal extends React.Component<IProps, IState> {
 
 	static defaultProps = {
 		okBtnText: 'Rate',

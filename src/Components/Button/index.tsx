@@ -1,5 +1,5 @@
 // Global Imports
-import React, { Component } from 'react';
+import * as React from 'react';
 import { Image, Text, TouchableOpacity } from 'react-native';
 
 // Local Imports
@@ -11,7 +11,7 @@ import { Button as IButton } from './Interfaces.d';
 /**
  * @class Button Component
  */
-export class Button extends Component<IButton.IProps, IButton.IState> {
+export class Button extends React.Component<IButton.IProps, IButton.IState> {
 	constructor(props: IButton.IProps) {
 		super(props);
 	}

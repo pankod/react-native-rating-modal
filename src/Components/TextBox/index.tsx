@@ -1,5 +1,5 @@
 // Global Imports
-import React, { Component } from 'react';
+import * as React from 'react';
 import { TextInput, View } from 'react-native';
 
 // Local Imports
@@ -8,7 +8,7 @@ import { Styles } from './Styles';
 // Interfaces
 import { TextBox as ITextBox } from './Interfaces';
 
-export class TextBox extends Component<ITextBox.IProps, ITextBox.IState> {
+export class TextBox extends React.Component<ITextBox.IProps, ITextBox.IState> {
 	public TextInputRef: TextInput;
 
 	constructor(props: ITextBox.IProps) {
